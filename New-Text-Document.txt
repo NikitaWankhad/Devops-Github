@@ -1,0 +1,27 @@
+150  cd Devops-Workshop
+  151  clear
+  152  ls -la
+  153  git init
+  154  ls -l
+  155  git status
+  156  touch testing.py
+  157  vi testing.py
+  158  cat testing.py
+  159  git status
+  160  git add testing.py
+  161  git status
+  162  git rm --cached testing.py
+  163* git status [A
+  164  git add testing.py
+  165  [A
+  166  clear
+  167  git status
+  168  git commit -m "added testing file"
+  169  git status
+  170  rm testing.py
+  171  ls
+  172  git status
+  173  git restore testing.py
+  174  ls
+  175  git status
+  176  history
